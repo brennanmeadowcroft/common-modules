@@ -1,5 +1,5 @@
 const bunyan = require('bunyan')
 
-const logger = bunyan.createLogger({ name: 'Generic App' })
+const logger = bunyan.createLogger({ name: 'Actual app name!' })
 
 module.exports = logger;
